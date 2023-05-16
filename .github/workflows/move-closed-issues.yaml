@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Sort Closed Issues by Label
-        uses: actions/github-script@v4
+        uses: actions/github-script@v6
         id: sort-closed-issues
         with:
           script: |
